@@ -4,7 +4,6 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { sendMail } from "@/lib/send-mail";
 import { toast } from "sonner";
-import { FaInstagram } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { FaViber } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
@@ -19,7 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Facebook, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Molimo unesite vase ime i prezime" }),
