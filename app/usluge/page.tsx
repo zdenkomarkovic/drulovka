@@ -8,7 +8,9 @@ const page = () => {
     <div>
       {" "}
       <div className="container px-2 md:px-10 mx-auto py-24 space-y-4 md:space-y-8">
-        <h2 className="text-3xl md:text-5xl text-center">Naše Usluge</h2>
+        <h2 className="text-3xl md:text-5xl text-center text-primary">
+          Naše Usluge
+        </h2>
         <Card>
           <CardHeader>
             <CardTitle className="md:text-3xl">

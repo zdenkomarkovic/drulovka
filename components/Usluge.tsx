@@ -12,8 +12,10 @@ import {
 const Usluge = () => {
   return (
     <div>
-      <div className="container px-2 md:px-4 mx-auto py-10 space-y-8">
-        <h2 className="text-3xl md:text-5xl text-center">Naše Usluge</h2>
+      <div className="container px-2 md:px-4 mx-auto py-8 md:py-16 space-y-4 md:space-y-10">
+        <h2 className="text-3xl md:text-5xl text-center text-primary">
+          Naše Usluge
+        </h2>
         <Card>
           <CardHeader>
             <CardTitle className="md:text-3xl">

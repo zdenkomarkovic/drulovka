@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <motion.footer
-      className=" py-8  shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
+      className=" py-8 bg-foreground text-muted shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
@@ -21,19 +21,13 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link
-                  href="/usluge"
-                  className="text-muted-foreground hover:text-primary"
-                >
+                <Link href="/usluge" className=" hover:text-primary">
                   Usluge
                 </Link>
               </li>
 
               <li>
-                <Link
-                  href="/kontakt"
-                  className="text-muted-foreground hover:text-primary"
-                >
+                <Link href="/kontakt" className=" hover:text-primary">
                   Kontakt
                 </Link>
               </li>
@@ -44,14 +38,12 @@ export default function Footer() {
             <div>
               {" "}
               <a href="tel:381641164021">
-                <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: 381 64 116 40 21
-                </p>
+                <p className="hover:text-primary">Telefon: 381 64 116 40 21</p>
               </a>
             </div>
             <div>
               <a href="mailto:drulovka54@gmail.com" target={"_blank"}>
-                <p className="text-muted-foreground text-wrap  hover:text-primary">
+                <p className="text-wrap  hover:text-primary">
                   Email: drulovka54@gmail.com
                 </p>
               </a>
@@ -63,7 +55,7 @@ export default function Footer() {
               PR Drulovka Niš
             </h3>
 
-            <p className=" font-bold ">
+            <p className="font-bold ">
               Vaš pouzdan partner za izdavanje i montažu pokretnih skela!
             </p>
           </div>

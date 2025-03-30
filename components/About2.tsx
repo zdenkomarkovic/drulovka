@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const About2 = () => {
   return (
     <div>
-      <div className="container px-2 md:px-4 py-10 md:py-20 mx-auto flex flex-col md:flex-row gap-6 md:gap-20 items-center">
+      <div className="container px-2 md:px-4 pt-10 md:pt-20 mx-auto flex flex-col md:flex-row gap-6 md:gap-20 items-center">
         <div className=" md:w-2/3 space-y-3 md:space-y-8">
           <p className=" first-letter:pl-6 text-lg md:text-3xl">
             PR <span className="font-bold text-primary">Drulovka Niš</span> je
@@ -45,7 +45,7 @@ const About2 = () => {
             width={500}
             height={800}
             alt="pokretne skele"
-            className="object-cover h-[300px] md:h-full"
+            className="object-cover h-[300px] md:h-[500px]"
           />
         </motion.div>
       </div>

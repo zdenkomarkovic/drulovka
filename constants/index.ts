@@ -7,6 +7,11 @@ import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
 import { LuTimerReset } from "react-icons/lu";
+import { TbPigMoney } from "react-icons/tb";
+import { FaShippingFast } from "react-icons/fa";
+import { LiaPeopleCarrySolid } from "react-icons/lia";
+import { GiMountainClimbing } from "react-icons/gi";
+import { VscTools } from "react-icons/vsc";
 
 export const navList = [
   {
@@ -123,31 +128,31 @@ export interface Cards1Data {
 export const cards1Data: Cards1Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: GiMountainClimbing,
     title: "Dugogodišnje Iskustvo",
     text: "Već dugi niz godina smo prepoznati kao firma koja stoji iza kvaliteta svojih usluga",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: VscTools,
     title: "Visok Kvalitet Opreme",
     text: "Naše skele su proverene i ispunjavaju sve sigurnosne standarde",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: FaShippingFast,
     title: "Brza Isporuka i Fleksibilnost",
     text: "Prilagođavamo se vašim rokovima i potrebama.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: TbPigMoney,
     title: "Konkurentne Cene",
     text: "Nudimo pristupačne cene uz mogućnost dugoročnog najma.",
   },
   {
     id: 5,
-    icon: GiWeight,
+    icon: LiaPeopleCarrySolid,
     title: "Stručni Tim",
     text: "Naši radnici su obučeni za sigurno postavljanje i održavanje skela.",
   },
