@@ -15,28 +15,7 @@ export const navList = [
   },
   {
     title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
-  },
-  {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    link: "/usluge",
   },
   {
     title: "Kontakt",
@@ -145,26 +124,32 @@ export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Dugogodišnje Iskustvo",
+    text: "Već dugi niz godina smo prepoznati kao firma koja stoji iza kvaliteta svojih usluga",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Visok Kvalitet Opreme",
+    text: "Naše skele su proverene i ispunjavaju sve sigurnosne standarde",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Brza Isporuka i Fleksibilnost",
+    text: "Prilagođavamo se vašim rokovima i potrebama.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Konkurentne Cene",
+    text: "Nudimo pristupačne cene uz mogućnost dugoročnog najma.",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "Stručni Tim",
+    text: "Naši radnici su obučeni za sigurno postavljanje i održavanje skela.",
   },
 ];
 
@@ -272,3 +257,56 @@ export interface Cards2DataText {
 export const cards2DataText: Cards2DataText = {
   text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
 };
+
+export interface Uslugedata {
+  title: string;
+  text: string;
+  image: string;
+  title2: string;
+  text2: string;
+  text3: string;
+}
+
+export const uslugeData: Uslugedata[] = [
+  {
+    title: "Visinsko Pranje Staklenih Površina",
+    text: "Održavanje staklenih fasada i prozora na visokim objektima zahteva posebnu opremu i stručnost. Naš tim koristi profesionalne tehnike i sredstva za čišćenje kako bi vaši objekti uvek izgledali besprekorno.",
+    image: "/visinsko pranje.webp",
+    title2: "Profesionalno čišćenje staklenih površina na visini",
+    text2:
+      "Održavanje staklenih fasada i prozora na visokim objektima ključno je za estetski izgled, dugovečnost materijala i sigurnost korisnika objekta. Profesionalno čišćenje staklenih površina na visini zahteva specijalizovanu opremu, stručno osoblje i primenu bezbednosnih standarda kako bi se obezbedila maksimalna efikasnost i sigurnost.",
+    text3:
+      "Redovno čišćenje uklanja nečistoće, prašinu, tragove kiše i druge zagađivače koji mogu narušiti prozirnost i izgled staklenih površina. Korišćenjem adekvatnih tehnika i ekološki prihvatljivih sredstava, postiže se dugotrajan efekat čistoće bez oštećenja materijala. Bez obzira na složenost pristupa, naši stručnjaci osiguravaju precizno i temeljno čišćenje, prilagođeno specifičnostima svakog objekta.",
+  },
+  {
+    title: "Mašinsko Čišćenje Velikih Površina",
+    text: "Nudimo profesionalno čišćenje hala, skladišta, trgovačkih centara i drugih velikih prostora. Koristimo najsavremenije mašine za dubinsko čišćenje koje efikasno uklanjaju prašinu, masnoće i druge nečistoće.",
+    image: "/masinsko ciscenje.webp",
+    title2: "Efikasno mašinsko čišćenje velikih površina",
+    text2:
+      "Mašinsko čišćenje velikih površina omogućava brzo, temeljno i efikasno uklanjanje prljavštine, prašine i tvrdokornih mrlja iz skladišta, hala, industrijskih pogona i drugih velikih prostora. Ovaj proces ne samo da poboljšava higijenske uslove, već i produžava vek trajanja podnih obloga i doprinosi sigurnijem radnom okruženju.",
+    text3:
+      "Naša usluga obuhvata korišćenje visokokvalitetnih mašina i profesionalnih sredstava za čišćenje, prilagođenih različitim vrstama podloga. Iskusni tim procenjuje specifične potrebe vašeg prostora i prilagođava pristup kako bi čišćenje bilo maksimalno efikasno, uz minimalan prekid vaših poslovnih aktivnosti.",
+  },
+  {
+    title: "Električne i Vodovodne Instalacije",
+    text: "Naš tim iskusnih električara i vodoinstalatera nudi kompletne usluge instalacije i održavanja električnih i vodovodnih sistema, kako za poslovne, tako i za stambene objekte.",
+    image: "/instalacije.webp",
+    title2:
+      "Profesionalna izrada i održavanje električnih i vodovodnih instalacija",
+    text2:
+      "Bezbedne i pouzdane električne i vodovodne instalacije ključne su za funkcionalnost svakog doma, poslovnog prostora ili industrijskog objekta. Naš tim stručnjaka pruža sveobuhvatne usluge, od projektovanja i instalacije do redovnog održavanja i popravki, kako biste imali siguran i efikasan sistem.",
+    text3:
+      "Koristimo savremene materijale i tehnike rada, pridržavajući se svih propisa i standarda. Bilo da je reč o novogradnji, renoviranju ili hitnim intervencijama, prilagođavamo rešenja vašim specifičnim potrebama, osiguravajući dugotrajnost i optimalnu funkcionalnost vaših instalacija.",
+  },
+  {
+    title: "Košenje Zelenih Površina",
+    text: "Održavanje travnatih površina i dvorišta je važno za estetiku i funkcionalnost prostora. Naša usluga obuhvata redovno košenje, uklanjanje korova i održavanje zelenih površina.",
+    image: "/kosenje trave.webp",
+    title2: "Profesionalno održavanje zelenih površina",
+    text2:
+      "Redovno košenje zelenih površina ključno je za očuvanje urednog i zdravog izgleda dvorišta, parkova i drugih zelenih površina. Pravilna nega doprinosi ravnomernom rastu trave, sprečava širenje korova i poboljšava estetski dojam okoline.",
+    text3:
+      "Naša usluga obuhvata stručne timove sa iskustvom u održavanju zelenih površina, koji koriste savremenu mehanizaciju za precizno i efikasno košenje. Bilo da se radi o privatnim dvorištima, poslovnim prostorima ili javnim parkovima, prilagođavamo tehniku rada specifičnim potrebama terena kako bismo postigli optimalne rezultate.",
+  },
+];
