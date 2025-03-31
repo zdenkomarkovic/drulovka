@@ -1,5 +1,6 @@
 import { Uslugedata, uslugeData } from "@/constants/index";
 import Image from "@/node_modules/next/image";
+import Link from "@/node_modules/next/link";
 import React from "react";
 import {
   Card,
@@ -72,6 +73,11 @@ const Usluge = () => {
               </div>
             </div>
           </CardContent>
+          <CardFooter>
+            <Link href={"/usluge"} className="ml-auto pr-10 text-xl">
+              Saznaj vise...
+            </Link>
+          </CardFooter>
         </Card>
         <div className="grid md:grid-cols-4 gap-4">
           {uslugeData.map((data, i) => {
@@ -94,7 +100,7 @@ const CardUsluge = ({ data }: { data: Uslugedata }) => {
       <CardContent>
         <p>{data.text}</p>
       </CardContent>
-      <CardFooter>
+      <CardFooter className="relative">
         <Image
           src={data.image}
           width={500}
@@ -102,6 +108,12 @@ const CardUsluge = ({ data }: { data: Uslugedata }) => {
           alt="usluge"
           className="rounded-lg object-cover h-[300px]"
         />
+        <Link
+          href={"/usluge"}
+          className="absolute right-10 bottom-10 text-white text-xl font-bold"
+        >
+          Saznaj vise...
+        </Link>
       </CardFooter>
     </Card>
   );
