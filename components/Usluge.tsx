@@ -24,7 +24,7 @@ const Usluge = () => {
               Iznajmljivanje Pokretnih Skela
             </CardTitle>
           </CardHeader>
-          <CardContent className="md:text-2xl">
+          <CardContent className="md:text-2xl relative">
             <div className="space-y-2 md:space-y-0 md:flex justify-between gap-10 items-center">
               <div>
                 <p>
@@ -72,12 +72,13 @@ const Usluge = () => {
                 </ul>
               </div>
             </div>
-          </CardContent>
-          <CardFooter>
-            <Link href={"/usluge"} className="ml-auto pr-10 text-xl">
+            <Link
+              href={"/usluge"}
+              className="absolute right-10 bottom-10 text-white md:text-muted-foreground text-xl font-bold"
+            >
               Saznaj vise...
             </Link>
-          </CardFooter>
+          </CardContent>
         </Card>
         <div className="grid md:grid-cols-4 gap-4">
           {uslugeData.map((data, i) => {
