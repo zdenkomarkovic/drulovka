@@ -33,9 +33,8 @@ const Usluge = () => {
                 </p>
                 <ul>
                   <li>Nudimo skele:</li>
-                  <li> - 3 do 9.5m gazece povrsine</li>
-                  <li> - 3 do 6m visine</li>
-                  <li> - 4 do 8.5m visine</li>
+                  <li> - 3 do 6m visina gazišta</li>
+                  <li> - 4 do 8.5m visine gazišta</li>
                 </ul>
               </div>
               <Image

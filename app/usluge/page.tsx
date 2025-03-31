@@ -31,15 +31,7 @@ const page = () => {
                     {" "}
                     -{" "}
                     <span className="font-bold text-primary">
-                      Radna platforma:
-                    </span>{" "}
-                    od 3 do 9.5 m dužine
-                  </li>
-                  <li className="">
-                    {" "}
-                    -{" "}
-                    <span className="font-bold text-primary">
-                      Visina skela:
+                      Visina gazišta skela:
                     </span>{" "}
                     od 3 do 6 m i od 4 do 8.5 m
                   </li>
