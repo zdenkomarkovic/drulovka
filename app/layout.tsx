@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     "najam skela",
     "najam skela nis",
     "iznajmljivanje skela nis",
+    "skele nis",
   ],
   alternates: {
     canonical: "https://www./",
