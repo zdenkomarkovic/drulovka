@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "skele nis",
   ],
   alternates: {
-    canonical: "https://www./",
+    canonical: "https://www.iznajmljivanjeskelanis.rs",
   },
 };
 
